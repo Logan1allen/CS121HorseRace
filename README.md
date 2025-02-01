@@ -1,19 +1,18 @@
 #include <random>
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+using namespace std;
 
-void advance(int horseNum, int* horses);
-void printLane(int horseNum, int* horses);
-bool isWinner(int horseNum, int* horses);
+create two constant ints called Numhorse and track
+set Numhorse to 5 nad track to 15
+
+create a function called printLane
+This function will use for loops to create the track system 
+
 
 int main
+will have a keepGoing while loop to run through the race
+it will have the coin filp the will decide if the horse moves or not
 
-
-##advance
-make an array of the horses numbers 0-4(will be 5 horses)
-if statement to see if the horse moves
-if coin = 1 then the horse doesn't move
-if coin = 2 then the horse adds one to its movement
-
-##printLane
-make an array for each of the horses lanes
-"int lane0 = [0,.,.,.,.,.,.,.,.,.,.,.,.,.,.]"
-if movement = +1
+print out the winner of the race.
